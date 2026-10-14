@@ -53,4 +53,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
 
     implementation("androidx.compose.material:material-icons-extended")
+        val nav_version = "2.10.2"
+    implementation("androidx.navigation:navigation-compose:${nav_version}")
+
 }
